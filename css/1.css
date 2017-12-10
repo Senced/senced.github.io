@@ -16,6 +16,24 @@ body{
 	
 }
 
+#mute{
+	
+	
+	font-size: 40px;
+	Color: yellow;
+	
+}
+
+.mid{
+	
+	position: absolute;
+	text-align:center;
+	top: 40%;
+	width: 100%;
+}
+/* Testovo vse na mid */
+
+
 #senced{
 	
 	left: 0;
@@ -30,6 +48,13 @@ body{
 	z-index: -1;
 	/* под частицами */
 }
+
+#particles-js{
+  width: 100%;
+  height: 100%;
+}
+
+/* Частицы на все ебло */
 
 #steamimg{
 	
@@ -73,16 +98,23 @@ body{
 
 /* Тест бока */
 
+#help:hover {
+	animation: delays 0.7s;
+}
+/* Блок от разьреза выцветания */
 
 
 #help:hover ~ #instagram{
-	display:block;
+	opacity:1;
+	animation: vidvij 0.4s ease;
+	
  }
+ /* Смена на инста */
  
- /* Именно на див */
+
+ 
  
 #instagram{
-	
 	
 	text-align:center;
 	margin: auto;
@@ -91,13 +123,12 @@ body{
 	top: 50%;
 	width: 100%;
 	/* Очень криво центр */
-	font-size: 70px;
-	color: red;
-	display:none;
-	
+	opacity: 0;
+	transition: 0.3s ease-in-out;
+	/* Выцветание */
 }
 
- 
+
 
 #s1{
 	animation: dvij 10s infinite 0s ease-in-out alternate;
@@ -117,7 +148,7 @@ body{
 #d6{
 	animation: dvij 10s infinite -5s ease-in-out alternate;
 }
-
+/* Анимация букв */
 
 
 
@@ -126,9 +157,26 @@ body{
 	50% {transform: translate(0px,-50px)}
 	100% {transform: translate(0px,0px)}
 }
+/* Фреймы для букв */
 
-#particles-js{
-  width: 100%;
-  height: 100%;
+
+@keyframes vidvij{
+	
+	0%{transform: translate(-100px, 0px); opacity: 0.0}
+	50%{opacity: 1.0}
+	100%{transform: translate(0px, 0px); opacity: 1.0}
+	
 }
+/* Выезд текста, который пнг */
+
+
+@keyframes delays{
+	
+	from{position:absolute;top:0;left:0;width:1920px;height:1080px;z-index:10;}
+	to{position:absolute;top:0;left:0;width:1920px;height:1080px;z-index:10}
+}
+/* Фреймы блока */
+
+
+
 
