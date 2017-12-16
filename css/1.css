@@ -5,10 +5,11 @@ html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address
 	/*Шрифт мой*/
 }
 body{
-	background-image: url(../img/back2.jpg);
+	background-image: url(../img/back3.jpg);
 	background-size: 1920px 1080px;
 	/*фон*/
 	overflow: hidden;
+	background-repeat: no-repeat;
 }
 .mid{
 	position: absolute;
@@ -99,7 +100,7 @@ body{
 }
 
  #steamhover:hover {
-	animation: delays 0.4s;
+	animation: delays 0.8s;
 	/* Блок от разьреза выцветания */
 }
 #steamhover:hover ~ #steamprofile{
@@ -152,7 +153,7 @@ body{
  
 
 #steamghoverg:hover {
-	animation: delays 0.4s;
+	animation: delays 0.8s;
 	/* Блок от разьреза выцветания */
 }
 #steamghoverg:hover ~ #steamgroup{
@@ -167,6 +168,299 @@ body{
  }
 
 #steamgroupimg{
+	width:auto;
+	height: 80px;
+	/* Размер картинок */
+}
+
+/* ТВИТЧ СНИЗУ */
+/* ТВИТЧ СНИЗУ */
+/* ТВИТЧ СНИЗУ */
+
+#twitchimg{
+	/* картинка стима gruppi */
+	top: 500;
+	left: 750;
+	z-index: -6;
+}
+#twitchimg2{
+	/* картинка стима gruppi 2*/
+	top: 500;
+	left: 750;
+	z-index: -7;
+}
+#twitch2{
+	position: absolute;
+	top: 0;
+	opacity: 0;
+	z-index: -5;
+	transition: 0.3s ease-in-out;
+	/* Прозрачность делает для 2 картинки */
+}
+#twitchlink{
+	/* Невидимая линка стима */
+	top: 500;
+	left: 750;
+}
+
+
+#twitchhover:hover {
+	animation: delays 0.8s;
+	/* Блок от разьреза выцветания */
+}
+#twitchhover:hover ~ #twitchprofile{
+	opacity:1;
+	animation: vidvij 0.4s ease;
+	/* Смена на инста */
+ }
+#twitchhover:hover ~ #twitch2{
+	opacity:1;
+	transition: 0.4s;
+	/* Делает не прозрачный 2 пик */
+ }
+
+#twitchprofileimg{
+	width:auto;
+	height: 80px;
+	/* Размер картинок */
+}
+/* TWITTER СНИЗУ */
+/* TWITTER СНИЗУ */
+/* TWITTER СНИЗУ */
+
+#twitterimg{
+	top: 300;
+	left: 900;
+	z-index: -6;
+}
+#twitterimg2{
+	top: 300;
+	left: 900;
+	z-index: -7;
+}
+#twitter2{
+	position: absolute;
+	top: 0;
+	opacity: 0;
+	z-index: -5;
+	transition: 0.3s ease-in-out;
+	/* Прозрачность делает для 2 картинки */
+}
+#twitterlink{
+	/* Невидимая линка стима */
+	top: 300;
+	left: 900;
+}
+
+
+#twitterhover:hover {
+	animation: delays 0.8s;
+	/* Блок от разьреза выцветания */
+}
+#twitterhover:hover ~ #twitterprofile{
+	opacity:1;
+	animation: vidvij 0.4s ease;
+	/* Смена на инста */
+ }
+#twitterhover:hover ~ #twitter2{
+	opacity:1;
+	transition: 0.4s;
+	/* Делает не прозрачный 2 пик */
+ }
+
+#twitterprofileimg{
+	width:auto;
+	height: 80px;
+	/* Размер картинок */
+}
+/* insta СНИЗУ */
+/* insta СНИЗУ */
+/* insta СНИЗУ */
+#instaimg{
+	top: 500;
+	left: 1100;
+	z-index: -6;
+}
+#instaimg2{
+	top: 500;
+	left: 1100;
+	z-index: -7;
+}
+#insta2{
+	position: absolute;
+	top: 0;
+	opacity: 0;
+	z-index: -5;
+	transition: 0.3s ease-in-out;
+	/* Прозрачность делает для 2 картинки */
+}
+#instalink{
+	/* Невидимая линка стима */
+	top: 500;
+	left: 1100;
+}
+
+
+#instahover:hover {
+	animation: delays 0.8s;
+	/* Блок от разьреза выцветания */
+}
+#instahover:hover ~ #instaprofile{
+	opacity:1;
+	animation: vidvij 0.4s ease;
+	/* Смена на инста */
+ }
+#instahover:hover ~ #insta2{
+	opacity:1;
+	transition: 0.4s;
+	/* Делает не прозрачный 2 пик */
+ }
+
+#instaprofileimg{
+	width:auto;
+	height: 80px;
+	/* Размер картинок */
+}
+/* vkgroup СНИЗУ */
+/* vkgroup СНИЗУ */
+/* vkgroup СНИЗУ */
+#vkgroupimg{
+	top: 400;
+	left: 1300;
+	z-index: -6;
+}
+#vkgroupimg2{
+	top: 400;
+	left: 1300;
+	z-index: -7;
+}
+#vkgroup2{
+	position: absolute;
+	top: 0;
+	opacity: 0;
+	z-index: -5;
+	transition: 0.3s ease-in-out;
+	/* Прозрачность делает для 2 картинки */
+}
+#vkgrouplink{
+	/* Невидимая линка стима */
+	top: 400;
+	left: 1300;
+}
+
+#vkgrouphover:hover {
+	animation: delays 0.8s;
+	/* Блок от разьреза выцветания */
+}
+#vkgrouphover:hover ~ #vkgroupprofile{
+	opacity:1;
+	animation: vidvij 0.4s ease;
+	/* Смена на инста */
+ }
+#vkgrouphover:hover ~ #vkgroup2{
+	opacity:1;
+	transition: 0.4s;
+	/* Делает не прозрачный 2 пик */
+ }
+
+#vkgroupprofileimg{
+	width:auto;
+	height: 80px;
+	/* Размер картинок */
+}
+
+/* vkpage СНИЗУ */
+/* vkpage СНИЗУ */
+/* vkpage СНИЗУ */
+
+#vkpageimg{
+	top: 300;
+	left: 1500;
+	z-index: -6;
+}
+#vkpageimg2{
+	top: 300;
+	left: 1500;
+	z-index: -7;
+}
+#vkpage2{
+	position: absolute;
+	top: 0;
+	opacity: 0;
+	z-index: -5;
+	transition: 0.3s ease-in-out;
+	/* Прозрачность делает для 2 картинки */
+}
+#vkpagelink{
+	/* Невидимая линка стима */
+	top: 300;
+	left: 1500;
+}
+
+#vkpagehover:hover {
+	animation: delays 0.8s;
+	/* Блок от разьреза выцветания */
+}
+#vkpagehover:hover ~ #vkpageprofile{
+	opacity:1;
+	animation: vidvij 0.4s ease;
+	/* Смена на инста */
+ }
+#vkpagehover:hover ~ #vkpage2{
+	opacity:1;
+	transition: 0.4s;
+	/* Делает не прозрачный 2 пик */
+ }
+
+#vkpageprofileimg{
+	width:auto;
+	height: 80px;
+	/* Размер картинок */
+}
+/* EMAIL СНИЗУ */
+/* EMAIL СНИЗУ */
+/* EMAIL СНИЗУ */
+
+#emailimg{
+	top: 500;
+	left: 1500;
+	z-index: -6;
+}
+#emailimg2{
+	top: 500;
+	left: 1500;
+	z-index: -7;
+}
+#email2{
+	position: absolute;
+	top: 0;
+	opacity: 0;
+	z-index: -5;
+	transition: 0.3s ease-in-out;
+	/* Прозрачность делает для 2 картинки */
+}
+#emaillink{
+	/* Невидимая линка стима */
+	top: 500;
+	left: 1500;
+}
+
+#emailhover:hover {
+	animation: delays 0.8s;
+	/* Блок от разьреза выцветания */
+}
+#emailhover:hover ~ #emailprofile{
+	opacity:1;
+	animation: vidvij 0.4s ease;
+	/* Смена на инста */
+ }
+#emailhover:hover ~ #email2{
+	opacity:1;
+	transition: 0.4s;
+	/* Делает не прозрачный 2 пик */
+ }
+
+#emailprofileimg{
 	width:auto;
 	height: 80px;
 	/* Размер картинок */
