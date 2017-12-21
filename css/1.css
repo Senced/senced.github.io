@@ -29,6 +29,7 @@ body{
 	position: absolute;
 	width: 200px;
 	height: 200px;
+	border-radius: 50%;
 	/* background-color:red; */
 	z-index: 3;
 	/* Боксы линки */
@@ -46,9 +47,19 @@ body{
 	/* Выцветание */
 	z-index: -5;
 }
-#mute{
-	font-size: 40px;
-	Color: yellow;
+#monimg{
+	position: fixed;
+	left: 1720px;
+	top: 1200px;
+	width: 120px;
+	animation: ;
+}
+#deleteme{
+	/* border-bottom: 2px dotted blue; */
+	color: blue;
+	width: 76px;
+	top: 933px;
+	left: 1820px;
 }
 #senced{
 	left: 0;
@@ -75,14 +86,14 @@ body{
 
 #steamimg{
 	/* картинка стима */
-	top: 500;
-	left: 250;
+	top: 350;
+	left: 350;
 	z-index: -6;
 }
 #steamimg2{
 	/* картинка стима 2 */
-	top: 500;
-	left: 250;
+	top: 350;
+	left: 350;
 	z-index: -6;
 }
 #steam2{
@@ -95,8 +106,8 @@ body{
 }
 #steamlink{
 	/* Невидимая линка стима */
-	top: 500;
-	left: 250;
+	top: 350;
+	left: 350;
 }
 
  #steamhover:hover {
@@ -127,14 +138,14 @@ body{
  
 #steamimgg{
 	/* картинка стима gruppi */
-	top: 400;
-	left: 500;
+	top: 500;
+	left: 1350;
 	z-index: -6;
 }
 #steamimgg2{
 	/* картинка стима gruppi 2*/
-	top: 400;
-	left: 500;
+	top: 500;
+	left: 1350;
 	z-index: -7;
 }
 #steamg2{
@@ -147,8 +158,8 @@ body{
 }
 #steamlinkg{
 	/* Невидимая линка стима */
-	top: 400;
-	left: 500;
+	top: 500;
+	left: 1350;
 }
  
 
@@ -180,13 +191,13 @@ body{
 #twitchimg{
 	/* картинка стима gruppi */
 	top: 500;
-	left: 750;
+	left: 150;
 	z-index: -6;
 }
 #twitchimg2{
 	/* картинка стима gruppi 2*/
 	top: 500;
-	left: 750;
+	left: 150;
 	z-index: -7;
 }
 #twitch2{
@@ -200,7 +211,7 @@ body{
 #twitchlink{
 	/* Невидимая линка стима */
 	top: 500;
-	left: 750;
+	left: 150;
 }
 
 
@@ -229,13 +240,13 @@ body{
 /* TWITTER СНИЗУ */
 
 #twitterimg{
-	top: 300;
-	left: 900;
+	top: 350;
+	left: 750;
 	z-index: -6;
 }
 #twitterimg2{
-	top: 300;
-	left: 900;
+	top: 350;
+	left: 750;
 	z-index: -7;
 }
 #twitter2{
@@ -248,8 +259,8 @@ body{
 }
 #twitterlink{
 	/* Невидимая линка стима */
-	top: 300;
-	left: 900;
+	top: 350;
+	left: 750;
 }
 
 
@@ -278,12 +289,12 @@ body{
 /* insta СНИЗУ */
 #instaimg{
 	top: 500;
-	left: 1100;
+	left: 950;
 	z-index: -6;
 }
 #instaimg2{
 	top: 500;
-	left: 1100;
+	left: 950;
 	z-index: -7;
 }
 #insta2{
@@ -297,7 +308,7 @@ body{
 #instalink{
 	/* Невидимая линка стима */
 	top: 500;
-	left: 1100;
+	left: 950;
 }
 
 
@@ -325,13 +336,13 @@ body{
 /* vkgroup СНИЗУ */
 /* vkgroup СНИЗУ */
 #vkgroupimg{
-	top: 400;
-	left: 1300;
+	top: 350;
+	left: 1150;
 	z-index: -6;
 }
 #vkgroupimg2{
-	top: 400;
-	left: 1300;
+	top: 350;
+	left: 1150;
 	z-index: -7;
 }
 #vkgroup2{
@@ -344,8 +355,8 @@ body{
 }
 #vkgrouplink{
 	/* Невидимая линка стима */
-	top: 400;
-	left: 1300;
+	top: 350;
+	left: 1150;
 }
 
 #vkgrouphover:hover {
@@ -374,13 +385,13 @@ body{
 /* vkpage СНИЗУ */
 
 #vkpageimg{
-	top: 300;
-	left: 1500;
+	top: 500;
+	left: 550;
 	z-index: -6;
 }
 #vkpageimg2{
-	top: 300;
-	left: 1500;
+	top: 500;
+	left: 550;
 	z-index: -7;
 }
 #vkpage2{
@@ -393,8 +404,8 @@ body{
 }
 #vkpagelink{
 	/* Невидимая линка стима */
-	top: 300;
-	left: 1500;
+	top: 500;
+	left: 550;
 }
 
 #vkpagehover:hover {
@@ -422,13 +433,13 @@ body{
 /* EMAIL СНИЗУ */
 
 #emailimg{
-	top: 500;
-	left: 1500;
+	top: 350;
+	left: 1550;
 	z-index: -6;
 }
 #emailimg2{
-	top: 500;
-	left: 1500;
+	top: 350;
+	left: 1550;
 	z-index: -7;
 }
 #email2{
@@ -441,8 +452,8 @@ body{
 }
 #emaillink{
 	/* Невидимая линка стима */
-	top: 500;
-	left: 1500;
+	top: 350;
+	left: 1550;
 }
 
 #emailhover:hover {
@@ -501,4 +512,9 @@ body{
 	from{position:absolute;top:0;left:0;width:1920px;height:1080px;z-index:10;}
 	to{position:absolute;top:0;left:0;width:1920px;height:1080px;z-index:10}
 	/* Фреймы блока */
+}
+@keyframes monika{
+	0% {transform: translate(0px,0px)}
+	50% {transform: translate(0px,-350px)}
+	100% {transform: translate(0px,0px)}
 }
