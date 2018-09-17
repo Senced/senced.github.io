@@ -1,2 +1,2 @@
 Audio=document.getElementById("bgAudio");
-Audio.volume=0.05;
+Audio.volume=0.3;
